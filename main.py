@@ -17,7 +17,7 @@ IT = Client(
 	bot_token=BOT_TOKEN
 	)
 
-CHL = 1001617550080
+CHL = -1765424118
 
 PM = 2066118611
 
