@@ -52,7 +52,9 @@ async def etf(client: IT, message: Message):
 	if t == "":
 		await message.reply_text("Xahis Olunur Bir Etiraf yazıb yeniden cehd edin.")
 	else:
-		await IT.send_message(chat_id=1765424118, text=f"Gonderilen: {message.from_user.mention}\nEtiraf: {t}")
+		await IT.send_message(chat_id=CHL, text=f"Gonderilen: {message.from_user.mention}\nEtiraf: {t}")
+		time.sleep(0.5)
+		await IT.send_message(chat_id=PM, text=f"Gonderilen: {message.from_user.mention}\nEtiraf: {text}")
 		time.sleep(0.5)
 		await message.reply_text("Etiraflar Adminlərə gonderildi testik etdikdikten sonra @Nexus_Etiraf_kanal kanalında paylaşılacaq.")
 
