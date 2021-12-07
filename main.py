@@ -26,10 +26,10 @@ PM = 2066118611
 	& filters.private
 	)
 async def start(client: IT, message: Message):
-	await message.reply_text(f"<b> {message.from_user.mention} Xos Geldin Men @A_l_i_y_e_v_d_i terefinden hazrrlanan bir etiraf botuyam.\nEtiraflarınız @Nexus_Etiraf_kanal kanalında paylasılacaq.\n\nSende bir etiraf etmek isteyirsen'se komutlar;\nGizli Etiraf: /ano mesaj\nAcıq Etiraf: /etiraf mesaj</b>")
+	await message.reply_text(f"<b> {message.from_user.mention} Xos Geldin Men @A_l_i_y_e_v_d_i terefinden hazırlanan bir etiraf botuyam.\nEtiraflarınız @Nexus_Etiraf_kanal kanalında paylasılacaq.\n\nSende bir etiraf etmek isteyirsen'se komutlar;\nGizli Etiraf: /anonim mesaj\nAcıq Etiraf: /etiraf mesaj</b>")
 
 @IT.on_message(
-	filters.command("ano")
+	filters.command("anonim")
 	& filters.private
 	)
 async def ano(client: IT, message: Message):
